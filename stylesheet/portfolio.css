@@ -43,7 +43,7 @@ p {
     font-family: Brush Script, Garamond;
     text-align: justify; /* Justify text within paragraph elements */
     letter-spacing: .1vw; /* This expands the text slightly */
-    font-size: 2.4vw; /* font size equivalent to 2.5 % of width of viewport */
+    font-size: 2.9vw; /* font size equivalent to 2.9 % of width of viewport */
     padding-left: 1vw; /* Adds padding to the left of the paragraph element */
     padding-right: 1vw; /* Adds padding to the right of the paragraph element */
 }
@@ -554,55 +554,55 @@ form {
 /* MEDIA RULES FOR PARAGRAPHS FONT SIZE FOR DIFFERENT SCREEN SIZES */
 @media screen and (max-width: 527px) {
     p {
-        font-size: 3.75vw;
+        font-size: 2.9vw;
     }
 }
 
 @media screen and (min-width: 528px) and (max-width: 660px) {
     p {
-        font-size: 3.5vw;
+        font-size: 2.6vw;
     }
 }
 
 @media screen and (min-width: 661px) and (max-width: 799px) {
     p {
-        font-size: 2.75vw;
+        font-size: 2.4vw;
     }
 }
 
 @media screen and (min-width: 800px) and (max-width: 924px) {
     p {
-        font-size: 2.5vw;
+        font-size: 2.2vw;
     }
 }
 
 @media screen and (min-width: 925px) and (max-width: 1050px) {
     p {
-        font-size: 2.25vw;
+        font-size: 2vw;
     }
 }
 
 @media screen and (min-width: 1051px) and (max-width: 1310px) {
     p {
-        font-size: 2vw;
+        font-size: 1.6vw;
     } 
 }
 
 @media screen and (min-width: 1311px) and (max-width: 1535px) {
     p {
-        font-size: 1.75vw;
+        font-size: 1.47vw;
     }
 }
 
 @media screen and (min-width: 1536px) and (max-width: 2269px) {
     p {
-        font-size: 1.5vw;
+        font-size: 1.3vw;
     }
 }
 
 @media screen and (min-width: 2270px) {
     p {
-        font-size: 1.35vw;
+        font-size: 1.2vw;
     }
 }
 /* END OF MEDIA RULES FOR PARAGRAPHS FONT SIZE FOR DIFFERENT SCREEN SIZES */
